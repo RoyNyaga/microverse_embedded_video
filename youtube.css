@@ -1,8 +1,9 @@
 /*navigation*/
 /* Navigation */
 
+
+
 .logo-img {
-	background-color: green;
     float: left;
     position: relative;
     width: 4%;
@@ -22,7 +23,6 @@
 	padding-right: 80px;
 }
 .bg-div{
-   background: red;
    overflow: hidden;
    padding: 20px 10px 20px; 
 }
@@ -46,17 +46,58 @@
 /*body-div
 */
 .body-div {
+	
 
-	background-color: pink;
 }
 .iframe-div {
-	background-color: green;
 	display: inline-block;
 	position: relative;
+	width:60%;
 }
 
 .sidebar{
 	float: right;
-	display: inline-block;
 	position: relative;
+	display: inline-block;
+	width: 40%;
 }
+
+.thumbnail{
+	width: 100%; 
+}
+
+.thumbimage {
+	width: 45%;
+}
+
+.info {
+	display: inline-block;
+	width: 50%;	
+	text-align: left;
+	overflow: hidden;
+	font-size: 10px;
+}
+
+#iframetitle {
+	margin-top: 0px;
+	width:50%;
+}
+#iframeview {
+	margin-top: 0px;
+}
+.description {
+	width: 100%;
+}
+
+#icon {
+	display: inline-block;
+	border: 5px solid black;
+  	border-radius:50%;
+  	width: 10%;
+}
+
+#text {
+	display: inline-block;
+	width:70%;
+}
+
