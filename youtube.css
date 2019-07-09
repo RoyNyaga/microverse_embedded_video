@@ -1,0 +1,62 @@
+/*navigation*/
+/* Navigation */
+
+.logo-img {
+	background-color: green;
+    float: left;
+    position: relative;
+    width: 4%;
+
+}
+
+.logo-img1 {
+	width: 4%;
+	padding-left: 20px;
+}
+
+#youtubeicon {
+	position: relative;
+	width: 6%;
+	float: left;
+	padding-left: 40px;
+	padding-right: 80px;
+}
+.bg-div{
+   background: red;
+   overflow: hidden;
+   padding: 20px 10px 20px; 
+}
+
+.form {
+	text-align:center;
+}
+
+.search {
+	float: left;
+	width: 43%;
+  padding: 13px 20px 10px;
+  border: 1px solid #ccc;
+}
+
+.search:hover {
+	border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+
+/*body-div
+*/
+.body-div {
+
+	background-color: pink;
+}
+.iframe-div {
+	background-color: green;
+	display: inline-block;
+	position: relative;
+}
+
+.sidebar{
+	float: right;
+	display: inline-block;
+	position: relative;
+}
