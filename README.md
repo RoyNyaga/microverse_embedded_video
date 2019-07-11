@@ -1,0 +1,1 @@
+This is a Microverse project and entails cloning or building a UI close to that of youtube paying atteintion to html and css only.
