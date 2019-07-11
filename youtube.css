@@ -1,37 +1,67 @@
 /*navigation*/
-.logo-img {
-    float: left;
-    position: relative;
-    width: 4%;
+
+
+.navBarDiv {
 
 }
 
-.logo-img1 {
-	width: 4%;
-	padding-left: 20px;
+.nav-bar-div{
+	display: inline-block;
+}
+#image-div1 {
+
+	width: 20%;
+
 }
 
-#youtubeicon {
+#search-form{
+
+	width: 50%;
 	position: relative;
-	width: 6%;
-	float: left;
-	padding-left: 40px;
-	padding-right: 80px;
-}
-.bg-div{
-   overflow: hidden;
-   padding: 20px 10px 20px; 
+	bottom: 15px;
+
+
 }
 
-.form {
-	text-align:center;
+#search-button {
+	background-color: #f8f8f8;
+	border: 2px solid #ccc;
+	border-left: 0px;
+	padding: 8px;
+	position: relative;
+	right: 4px;
 }
 
-.search {
-	float: left;
-	width: 43%;
-  padding: 13px 20px 10px;
-  border: 1px solid #ccc;
+.logo-image1 {
+    width: 20%;
+
+}
+
+#image-div2 {
+
+
+	 width: 20%;
+	 float: right;
+}
+
+.logo-img2 {
+	width: 15%;
+	padding: 10px;
+ 
+}
+
+#dropdownicon {
+	padding-left: 15px; /*for pictures padding is added on the outside since there is no space inside*/
+
+}
+#youtubeicon{
+	padding-left: 30px;
+}
+
+#search {
+	width: 70%;
+  padding: 8px;
+  border: 2px solid #ccc;
 }
 
 .search:hover {
@@ -41,21 +71,68 @@
 
 /*body-div
 */
-.body-div {
-	
 
-}
-.iframe-div {
+#iframe-div {
 	display: inline-block;
 	position: relative;
 	width:60%;
 }
 
-.sidebar{
+#sidebar{
 	float: right;
 	position: relative;
 	display: inline-block;
 	width: 40%;
+}
+
+.iframe-text-icon-button {
+	display: inline-block;
+}
+
+#text-div {
+	width: 50%;
+}
+
+#iframe-icons-div {
+	width: 20%;
+
+}
+
+#iframe-buttons-div {
+	width: 25%;
+
+	text-align: center;
+	position: relative;
+	bottom: 15px;
+}
+
+.iframe-button {
+	padding: 10px;
+
+}
+
+#subscribe-button {
+	background-color: #e6e6e6;
+}
+
+button {
+	border: 0px;
+}
+
+.icon {
+	padding-left:10px ;
+}
+
+#description-photo {
+	width:20%;
+	border: 1px solid red;
+	border-radius: 100%;
+}
+
+#description-text {
+	display: inline-block;
+	width: 70%;
+	float: right;
 }
 
 .thumbnail{
@@ -72,28 +149,5 @@
 	text-align: left;
 	overflow: hidden;
 	font-size: 10px;
-}
-
-#iframetitle {
-	margin-top: 0px;
-	width:50%;
-}
-#iframeview {
-	margin-top: 0px;
-}
-.description {
-	width: 100%;
-}
-
-#icon {
-	display: inline-block;
-	border: 5px solid black;
-  	border-radius:50%;
-  	width: 10%;
-}
-
-#text {
-	display: inline-block;
-	width:70%;
 }
 
