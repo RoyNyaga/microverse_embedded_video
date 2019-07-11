@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Bootstrap 4 Example</title>
@@ -10,21 +9,26 @@
 <body>
 
 
-  <div class="bg-div">
+  <nav class="navBarDiv">
+    <div id="image-div1" class="nav-bar-div">
+      <img id="dropdownicon" class="logo-image1" src="photos/dropdown.svg">
+      <img id="youtubeicon" class="logo-image1" src="photos/youtubeicon.png">
+    </div>
 
-    <img class="logo-img" src="photos/dropdown.svg">
-    <img id="youtubeicon" src="photos/youtubeicon.png">
-    <div class="form">
+    <div id="search-form" class="nav-bar-div">
       <form>
-        <input class="search" type="search" placeholder="Search google or type a URL">
+        <input id="search" type="search" placeholder="Search google or type a URL">
+        <button id="search-button">search</button>
       </form>
     </div>
 
-    <img class="logo-img1" src="photos/createposticon.png">
-    <img class="logo-img1" src="photos/appsicon.png">
-    <img class="logo-img1" src="photos/messageicon.png">
-    <img class="logo-img1" src="photos/notificationicon.jpg">
-  </div>
+    <div id="image-div2" class="nav-bar-div">
+      <img class="logo-img2" src="photos/createposticon.png">
+      <img class="logo-img2" src="photos/appsicon.png">
+      <img class="logo-img2" src="photos/messageicon.png">
+      <img class="logo-img2" src="photos/notificationicon.jpg">
+    </div>
+  </nav>
       
   <div class="body-div"> 
 
@@ -80,10 +84,5 @@
       </div>
     </div>
   </div>
-
-  
-  
-
-
 </body>
 </html>
