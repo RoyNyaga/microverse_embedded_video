@@ -1,6 +1,14 @@
 /*navigation*/
 
-
+.flushRight{
+    float: right;
+}
+.flushClear{
+	clear: both;
+}
+.flushLeft{
+	float: left;
+}
 .navBarDiv {
 
 }
